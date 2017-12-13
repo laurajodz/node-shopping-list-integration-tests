@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Of6y8j4m0tpquLq3pxJMh8lWDfeVcixVYWPH58lELpfHiRT4WajcTwQOTLKzxVuhMr/SnodzMFCBPvEJyKvkQ7H8siGxA8zrT77TwZnGpuDbp7OsSeSXsi8BpoFvIMHg7Rwy59KCu7GmI0Gyg7VAmHgmAZpNCb4/CBdjqekubuThqx18KjNxQyLnj/41pe9D3L7DiqkSzo2AnBDkgzMLj7UrZLKykoWbBgsARx/W5JABBegnqnwwEciXEwB2Kc32z9vIJjxZL3b2/9svpaEwtqMFRCJQ0Oiu2/h6YH50VuN43exEJSsC1zOo4+wG4yOGk/Hh5F2SSvul5rkzzPElCAZGq14tJc0s1XNPhfl6Fhh4O+zIMvV4Et1f8NuRJxlReLg1F0yZN6etRaB4OtkN0b2sgqokB1d2Wpx4hyB+kPA4g5niFUXpXhLjrfxEhLjPM5vcl8JJKiSXKs5+rNf32ikJ0P4WZPEGhr6z5+kz8db1bRGCiU7vPvdDUMFYxd8JctCUGKenPLgItZe1T8RN1R+Tu/Jkna44W+BjrVV4Ah65SwkHetjF8jHM8EiTbQLlpqQK9cJ6iMvu4FH7yhpcBZ/K18eTJLujhQgwY2iNnKskmRAxwWeOHJmC88aQ5SvWxYxkUVyg2PkgnPMZKrRX73JKXXQsqfwn9LOnZeTs/Ag=
+  app: https://still-harbor-78024.herokuapp.com/
+  on:
+    repo: laurajodz/node-shopping-list-integration-tests
